@@ -1,0 +1,75 @@
+{
+    "books": [
+        {
+            "id": "1",
+            "title": "رواية الفيل الأزرق",
+            "author": "أحمد مراد",
+            "year": 2012,
+            "ImgUrl": "/imgs/الفيل-الازرق.webp",
+            "pages": 385
+        },
+        {
+            "id": "2",
+            "title": "منزل أبو خطوة",
+            "author": "حسن الجندي",
+            "year": 2017,
+            "ImgUrl": "/imgs/منزل-أبو-خطوة.webp",
+            "pages": 267
+        },
+        {
+            "id": "3",
+            "title": "رواية 1984",
+            "author": "جورج أورويل",
+            "year": 2014,
+            "ImgUrl": "/imgs/1984.webp",
+            "pages": 310
+        },
+        {
+            "id": "4",
+            "title": "الحجر الأحمر",
+            "author": "أحمد مراد",
+            "year": 2017,
+            "ImgUrl": "/imgs/الحجر-الأحمر.webp",
+            "pages": 528
+        },
+        {
+            "id": "5",
+            "title": "الحجر الأحمر",
+            "author": "أحمد مراد",
+            "year": 2017,
+            "ImgUrl": "/imgs/الحجر-الأحمر.webp",
+            "pages": 528
+        },
+        {
+            "id": "6",
+            "title": "الحجر الأحمر",
+            "author": "أحمد مراد",
+            "year": 2017,
+            "ImgUrl": "/imgs/الحجر-الأحمر.webp",
+            "pages": 528
+        },
+        {
+            "id": "7",
+            "title": "الحجر الأحمر",
+            "author": "أحمد مراد",
+            "year": 2017,
+            "ImgUrl": "/imgs/الحجر-الأحمر.webp",
+            "pages": 528
+        },
+        {
+            "id": "8",
+            "title": "الحجر الأحمر",
+            "author": "أحمد مراد",
+            "year": 2017,
+            "ImgUrl": "/imgs/الحجر-الأحمر.webp",
+            "pages": 528
+        }
+    ],
+    "pagesData": [
+        {
+            "id": "1",
+            "pagesName": "روايات عربية",
+            "pagesUrl": ""
+        }
+    ]
+}
