@@ -7,7 +7,7 @@ function Nav({ totalItems, cart, removeItem, emptyCart, filterBooks, handleSubmi
         <header>
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
-                    <Link className="navbar-brand" to="/">كتابي</Link>
+                    <Link className="navbar-brand" to="ketaby">كتابي</Link>
                     <button className="btn btn-primary menu-btn order-last" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvasExample" aria-controls="offcanvasExample">
                         <i className='fa-solid fa-bars'></i>
                     </button>
