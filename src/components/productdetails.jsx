@@ -73,10 +73,10 @@ function ProductDetails({ product, handleAddToCart }) {
                                 </div>
                                 <div className="product-details-share">
                                     <h3>شارك:
-                                        <FacebookShareButton className="btn-primary" url={`https://www.facebook.com/${productId}`} quote={`${Book.name}`} hashtag={'#'} openShareDialogOnClick={true}>
+                                        <FacebookShareButton className="btn-primary" url={`https://omar-abdelatif.github.io/ketaby/${Book.id}`} quote={`${Book.name}`} hashtag={'#'} openShareDialogOnClick={true}>
                                             <i className="fab fa-facebook-f"></i>
                                         </FacebookShareButton>
-                                        <WhatsappShareButton url={`https://omar-abdelatif.github.io/ketaby/${productId}`}>
+                                        <WhatsappShareButton url={`https://omar-abdelatif.github.io/ketaby/${Book.id}`}>
                                             <i className="fab fa-whatsapp"></i>
                                         </WhatsappShareButton>
                                         <button className="btn btn-primary" onClick={copyToClipboard} id="copy">
