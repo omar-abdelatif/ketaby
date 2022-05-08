@@ -88,7 +88,7 @@ function App() {
                 handleSearch={handleSearch}
             />
             <Routes>
-                <Route index path="/" element={<Index product={product} onAddToCart={handleAddToCart} categories={Category} />} />
+                <Route index path="ketaby" element={<Index product={product} onAddToCart={handleAddToCart} categories={Category} />} />
                 <Route path="/:productId" element={<ProductDetails product={product} handleAddToCart={handleAddToCart} />} />
                 <Route path="/arabicbooks" element={<Arabic product={product} categories={Category} onAddToCart={handleAddToCart} />} />
                 <Route path="*" element={<ErrorPage />} />
