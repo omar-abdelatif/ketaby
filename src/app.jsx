@@ -89,8 +89,8 @@ function App() {
             />
             <Routes>
                 <Route index path="ketaby" element={<Index product={product} onAddToCart={handleAddToCart} categories={Category} />} />
-                <Route path="/:productId" element={<ProductDetails product={product} handleAddToCart={handleAddToCart} />} />
-                <Route path="/arabicbooks" element={<Arabic product={product} categories={Category} onAddToCart={handleAddToCart} />} />
+                <Route path="ketaby/:productId" element={<ProductDetails product={product} handleAddToCart={handleAddToCart} />} />
+                <Route path="ketaby/arabicbooks" element={<Arabic product={product} categories={Category} onAddToCart={handleAddToCart} />} />
                 <Route path="*" element={<ErrorPage />} />
             </Routes>
             <Footer />
