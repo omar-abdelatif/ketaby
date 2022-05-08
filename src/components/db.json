@@ -1,0 +1,28 @@
+[
+    {
+        "MovieName": "Aladdin (2019)",
+        "CoverImg": "https://lumiere-a.akamaihd.net/v1/images/pp_aladdin2019_herobanner_19736_df5ad245.jpeg?region=0,0,2048,878",
+        "Duration": "2h 8min",
+        "Date": "May 23, 2019",
+        "Gender": "Adventure, Family, Fantasy",
+        "Description": "From Disney comes a thrilling and vibrant live-action adaptation of the animated classic Aladdin, featuring Will Smith as the larger-than-life Genie, with the charming street rat Aladdin and the courageous, self-determined Princess Jasmine!",
+        "Director": "Guy Ritchie",
+        "Writer": "John August, Guy Ritchie",
+        "Producer": "Dan Lin, Jonathan Eirich",
+        "Cast": "Will Smith, Mena Massoud, Naomi Scott, Marwan Kenzari, Navid Negahban",
+        "CardImg": "https://lumiere-a.akamaihd.net/v1/images/image_9e35a739.jpeg?region=0%2C0%2C540%2C810"
+    },
+    {
+        "MovieName": "Ant-Man and the Wasp",
+        "CoverImg": "https://lumiere-a.akamaihd.net/v1/images/image_923f0583.jpeg?region=0,0,2048,878",
+        "Duration": "1h 58min",
+        "Date": "July 5, 2018",
+        "Gender": "Action-Adventure, Comedy, Science Fiction",
+        "Description": "As he struggles to balance his home life and Super Hero duties, Scott Lang finds he must suit up as Ant-Man again, joining the Wasp on an urgent mission to uncover secrets from the past.",
+        "Director": "Peyton Reed",
+        "Writer": "Chris McKenna, Erik Sommers, Paul Rudd, Andrew Barrer, Gabriel Ferrari",
+        "Producer": "Kevin Feige",
+        "Cast": "Paul Rudd, Evangeline Lilly, Michael Peña, Walton Goggins, Hannah John-Kamen, David Dastmalchian, Tip \"T.I.\" Harris, Judy Greer, Bobby Cannavale, Randall Park, Abby Ryder Fortson",
+        "CardImg": "https://lumiere-a.akamaihd.net/v1/images/image_ae30e307.jpeg?region=0%2C0%2C540%2C810"
+    }
+]
