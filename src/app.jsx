@@ -3,7 +3,7 @@ import "./components/responsive/responsive.css";
 import { Route, Routes } from 'react-router-dom'
 import { commerce } from './lib/commerce';
 import "../node_modules/animate.css/animate.min.css";
-import Preloader from './components/preloader/preloader';
+// import Preloader from './components/preloader/preloader';
 import ScrollTop from './components/scrollBtn'
 import Nav from './components/navbar/nav';
 import Index from './components/index';
@@ -77,7 +77,7 @@ function App() {
     }, []);
     return (
         <React.Fragment>
-            <Preloader />
+            {/* <Preloader /> */}
             <ScrollTop />
             <Nav totalItems={cart.total_items}
                 product={product}
