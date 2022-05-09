@@ -16,6 +16,7 @@ function App() {
     const [cart, setCart] = useState({});
     const [search, setSearch] = useState('');
     const [Category, setCategory] = useState([]);
+    
     // const [Download, setDownload] = useState([]);
     // const fetchDownload = async () => {
     //     const data = await commerce.getDownload();

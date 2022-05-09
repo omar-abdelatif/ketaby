@@ -667,11 +667,37 @@ nav {
 	position: relative;
 }
 /* PAGINATION */
-.pagination{
-	margin-top: 30px;
+.paginationBttns{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	list-style: none;
 }
-.pagination .active{
+.paginationDisabled{
+	cursor: not-allowed;
+	color: #cccccc !important;
+	font-weight: 700;
+	font-family: cairo;
+}
+.paginationBttns li{
+	padding: 0 15px;
+}
+.pagenumber{
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #ffffff;
+	background-color: rgb(23, 129, 179);
+	padding: 3px 10px;
+	border-radius: 3px;
+}
+.paginationActive a{
 	background-color: #24a19c;
+	color: #fff;
+}
+.paginationActive a:hover{
+	background-color: #2ecc71;
+	color: #000;
 }
 /* FOOTER */
 footer {

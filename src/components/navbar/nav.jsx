@@ -18,7 +18,7 @@ function Nav({ totalItems, cart, removeItem, emptyCart, filterBooks, handleSubmi
                         <div className="offcanvas-body">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/arabicbooks">روايات عربية</NavLink>
+                                    <NavLink className="nav-link" to="ketaby/arabicbooks">روايات عربية</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/forigen">روايات أجنبية</NavLink>

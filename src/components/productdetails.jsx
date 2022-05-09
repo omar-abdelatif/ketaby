@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { FacebookShareButton, WhatsappShareButton } from 'react-share';
 
 function ProductDetails({ product, handleAddToCart }) {
+    console.log(product);
     const [Copy, setCopy] = useState('');
     const BookList = product;
     const { productId } = useParams();
@@ -11,37 +12,8 @@ function ProductDetails({ product, handleAddToCart }) {
         return e.id === productId
     })]
     let x;
-    if (product.related_products) {
-        x = product.related_products.length
-    }
-    function NoProduct() {
-        return (
-            <div className="emptylist">
-                <h1>No Related Product Found</h1>
-            </div>
-        )
-    }
-    function FilledProduct() {
-        return (
-            <React.Fragment>
-                {product.map(item => (
-                    <div key={item.id} className="related-item">
-                        {product.related_products.forEach(ele => {
-                            <div className="related-item-img">
-                                <img src={item.image.url} width='130' height='150' alt={item.name} />
-                                <div className="item-txts">
-                                    <a href={`${item.id}`}>
-                                        <p>{item.name}</p>
-                                    </a>
-                                    <a href="https://drive.google.com/file/d/1EIgDktx8gYvXDj7KYtMydrypz_SDehqv/view?usp=sharing" target={'blank'} className="btn btn-primary">قراءة و تحميل للكتاب</a>
-                                    <button onClick={() => handleAddToCart(item.id)} className="btn btn-primary">أضف الى السلة</button>
-                                </div>
-                            </div>
-                        })}
-                    </div>
-                ))}
-            </React.Fragment>
-        )
+    if (product[0]) {
+        x = product[0].related_products
     }
     const copyToClipboard = () => {
         copy(Copy);
@@ -92,7 +64,21 @@ function ProductDetails({ product, handleAddToCart }) {
                                     <h3>ذات صلة</h3>
                                 </div>
                                 <div className="related-contents">
-                                    {x === 0 ? <FilledProduct /> : <NoProduct />}
+                                    {/* {x === 0 ? <NoProduct /> : <FilledProduct />} */}
+                                    {x && x.map(e => (
+                                        <div className="related-item">
+                                            <div className="related-item-img">
+                                                <img src={e.image.url} width='130' height='150' alt={e.name} />
+                                                <div className="item-txts">
+                                                    <a href={`${e.id}`}>
+                                                        <p>{e.name}</p>
+                                                    </a>
+                                                    <a href="https://drive.google.com/file/d/1EIgDktx8gYvXDj7KYtMydrypz_SDehqv/view?usp=sharing" target={'blank'} className="btn btn-primary">قراءة و تحميل للكتاب</a>
+                                                    <button onClick={() => handleAddToCart(e.id)} className="btn btn-primary">أضف الى السلة</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
                                 </div>
                             </div>
                         </div>
