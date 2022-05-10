@@ -73,6 +73,7 @@ function ProductDetails({ product, handleAddToCart }) {
                                                     <a href={`${e.id}`}>
                                                         <p>{e.name}</p>
                                                     </a>
+                                                    <a href={process.env.PUBLIC_URL + '/pdf/في قلبي أنثى عبرية.pdf'} className="btn btn-primary">download test</a>
                                                     <a href="https://drive.google.com/file/d/1EIgDktx8gYvXDj7KYtMydrypz_SDehqv/view?usp=sharing" target={'blank'} className="btn btn-primary">قراءة و تحميل للكتاب</a>
                                                     <button onClick={() => handleAddToCart(e.id)} className="btn btn-primary">أضف الى السلة</button>
                                                 </div>
