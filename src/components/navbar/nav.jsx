@@ -1,5 +1,4 @@
 import React from 'react';
-// import Shop from '../shop'
 import { NavLink, Link } from 'react-router-dom';
 import Cart from './cart';
 function Nav({ totalItems, cart, removeItem, emptyCart, filterBooks, handleSubmit, handleSearch }) {
@@ -38,7 +37,6 @@ function Nav({ totalItems, cart, removeItem, emptyCart, filterBooks, handleSubmi
                     <div className="search">
                         <form className='d-flex' action="" method="get" onSubmit={handleSubmit}>
                             <input id='search' className="search form-control" name='s' onChange={handleSearch} type="search" placeholder="إبحث عن كتابك هنا" aria-label="Search" />
-                            <button className="btn btn-outline-success" type="submit">بحث</button>
                         </form>
                         <ul className="result" id='result'>
                             {filterBooks.map(item => {

@@ -68,10 +68,26 @@ function App() {
         }
     }
     useEffect(() => {
+        const scrollTop = document.querySelector('.scroll-top');
         const script = document.createElement("script");
         script.src = "/js/custom.js";
         script.async = true;
         document.body.appendChild(script);
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navbar');
+            if (window.scrollY > 150) {
+                nav.classList.add('fixed');
+            } else {
+                nav.classList.remove('fixed');
+            }
+        });
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 100) {
+                scrollTop.classList.add("show");
+            } else {
+                scrollTop.classList.remove("show");
+            }
+        });
         fetchProducts();
         fetchCart();
         // fetchDownload();

@@ -4,7 +4,7 @@ function Hot({ product, onAddToCart, categories }) {
     const Books = [
         {
             id: 2,
-            img: "/imgs/books/1984.webp",
+            img: "/ketaby/imgs/books/1984.webp",
             alt: "رواية 1984",
             width: "245",
             height: "300",
@@ -13,7 +13,7 @@ function Hot({ product, onAddToCart, categories }) {
         },
         {
             id: 3,
-            img: "/imgs/books/أرض-السافلين.webp",
+            img: "/ketaby/imgs/books/أرض-السافلين.webp",
             alt: "رواية ارض السافلين",
             width: "245",
             height: "300",
@@ -22,7 +22,7 @@ function Hot({ product, onAddToCart, categories }) {
         },
         {
             id: 4,
-            img: "/imgs/books/ملائك-نصيبين.webp",
+            img: "/ketaby/imgs/books/ملائك-نصيبين.webp",
             alt: "رواية ملائك نصيبين",
             width: "245",
             height: "300",
@@ -31,7 +31,7 @@ function Hot({ product, onAddToCart, categories }) {
         },
         {
             id: 5,
-            img: "/imgs/books/الرصد.webp",
+            img: "/ketaby/imgs/books/الرصد.webp",
             alt: "رواية الرصد",
             width: "245",
             height: "300",
@@ -40,7 +40,7 @@ function Hot({ product, onAddToCart, categories }) {
         },
         {
             id: 6,
-            img: "/imgs/books/انا-شهيرة.webp",
+            img: "/ketaby/imgs/books/انا-شهيرة.webp",
             alt: "رواية انا شهيرة",
             width: "245",
             height: "300",
@@ -49,7 +49,7 @@ function Hot({ product, onAddToCart, categories }) {
         },
         {
             id: 7,
-            img: "/imgs/books/انتيخريستوس.webp",
+            img: "/ketaby/imgs/books/انتيخريستوس.webp",
             alt: "رواية انتيخريستوس",
             width: "245",
             height: "300",
@@ -58,7 +58,7 @@ function Hot({ product, onAddToCart, categories }) {
         },
         {
             id: 8,
-            img: "/imgs/books/انا-الخائن.webp",
+            img: "/ketaby/imgs/books/انا-الخائن.webp",
             alt: "رواية انا الخائن",
             width: "245",
             height: "300",

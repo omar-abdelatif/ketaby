@@ -5,7 +5,7 @@ function Testmonial() {
     const testmonial = [
         {
             id: 1,
-            img: "/imgs/testmonials/1.webp",
+            img: "/ketaby/imgs/testmonials/1.webp",
             text: "Auto Flow makes it easy to draw stunning flows for creating WireFrame, UserFlows, FlowCharts and Design guide. With AutoFlow Get Closer to your users ",
             name: "Joseph Jackson",
             position: "Product Manager",
@@ -14,7 +14,7 @@ function Testmonial() {
         },
         {
             id: 2,
-            img: "/imgs/testmonials/2.webp",
+            img: "/ketaby/imgs/testmonials/2.webp",
             text: "Auto Flow makes it easy to draw stunning flows for creating WireFrame, UserFlows, FlowCharts and Design guide. With AutoFlow Get Closer to your users ",
             name: "Louisa Stewart",
             position: "Director",
@@ -23,7 +23,7 @@ function Testmonial() {
         },
         {
             id: 3,
-            img: "/imgs/testmonials/3.webp",
+            img: "/ketaby/imgs/testmonials/3.webp",
             text: "Auto Flow makes it easy to draw stunning flows for creating WireFrame, UserFlows, FlowCharts and Design guide. With AutoFlow Get Closer to your users ",
             name: "Alice Elliot",
             position: "Assistant manager",

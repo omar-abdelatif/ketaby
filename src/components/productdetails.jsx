@@ -2,6 +2,7 @@ import { useParams } from "react-router";
 import copy from 'copy-to-clipboard';
 import React, { useState } from 'react';
 import { FacebookShareButton, WhatsappShareButton } from 'react-share';
+import NewsLetter from './newsletter';
 
 function ProductDetails({ product, handleAddToCart }) {
     console.log(product);
@@ -64,7 +65,6 @@ function ProductDetails({ product, handleAddToCart }) {
                                     <h3>ذات صلة</h3>
                                 </div>
                                 <div className="related-contents">
-                                    {/* {x === 0 ? <NoProduct /> : <FilledProduct />} */}
                                     {x && x.map(e => (
                                         <div className="related-item">
                                             <div className="related-item-img">
@@ -85,7 +85,8 @@ function ProductDetails({ product, handleAddToCart }) {
                     </div>
                 )}
             </div>
-        </div >
+            <NewsLetter />
+        </div>
     );
 }
 export default ProductDetails;
