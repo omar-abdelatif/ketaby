@@ -16,16 +16,6 @@ window.addEventListener("scroll", function () {
     }
 });
 
-// NAVBAR
-window.addEventListener('scroll', () => {
-    const nav = document.querySelector('.navbar');
-    if (window.scrollY > 150) {
-        nav.classList.add('fixed');
-    } else {
-        nav.classList.remove('fixed');
-    }
-});
-
 // SEARCH
 const Body = document.body
 const search = document.getElementById('search');
