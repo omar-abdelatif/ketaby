@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ketaby/static/css/main.9a6c2fbc.css",
-    "main.js": "/ketaby/static/js/main.af92bcb5.js",
+    "main.js": "/ketaby/static/js/main.d1acfd93.js",
     "static/media/hero-wallpaper.webp": "/ketaby/static/media/hero-wallpaper.a44e51ec9eb63ef5a92b.webp",
     "static/media/fa-solid-900.ttf": "/ketaby/static/media/fa-solid-900.79da213423ac0def2058.ttf",
     "static/media/fa-brands-400.ttf": "/ketaby/static/media/fa-brands-400.0a1b701f5563c2288281.ttf",
@@ -19,10 +19,10 @@
     "static/media/slick.woff": "/ketaby/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ketaby/index.html",
     "main.9a6c2fbc.css.map": "/ketaby/static/css/main.9a6c2fbc.css.map",
-    "main.af92bcb5.js.map": "/ketaby/static/js/main.af92bcb5.js.map"
+    "main.d1acfd93.js.map": "/ketaby/static/js/main.d1acfd93.js.map"
   },
   "entrypoints": [
     "static/css/main.9a6c2fbc.css",
-    "static/js/main.af92bcb5.js"
+    "static/js/main.d1acfd93.js"
   ]
 }
