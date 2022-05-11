@@ -66,7 +66,7 @@ function ProductDetails({ product, handleAddToCart }) {
                                 </div>
                                 <div className="related-contents">
                                     {x && x.map(e => (
-                                        <div className="related-item">
+                                        <div className="related-item" key={e.id}>
                                             <div className="related-item-img">
                                                 <img src={e.image.url} width='130' height='150' alt={e.name} />
                                                 <div className="item-txts">

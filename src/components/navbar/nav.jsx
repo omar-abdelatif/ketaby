@@ -42,7 +42,7 @@ function Nav({ totalItems, cart, removeItem, emptyCart, filterBooks, handleSubmi
                             {filterBooks.map(item => {
                                 return (
                                     <li key={item.id}>
-                                        <Link to={`${item.id}`}>{item.name}</Link>
+                                        <Link to={`/ketaby/${item.id}`}>{item.name}</Link>
                                     </li>
                                 )
                             })}

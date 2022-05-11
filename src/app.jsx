@@ -16,7 +16,6 @@ function App() {
     const [cart, setCart] = useState({});
     const [search, setSearch] = useState('');
     const [Category, setCategory] = useState([]);
-    
     // const [Download, setDownload] = useState([]);
     // const fetchDownload = async () => {
     //     const data = await commerce.getDownload();
@@ -69,6 +68,9 @@ function App() {
     }
     useEffect(() => {
         const scrollTop = document.querySelector('.scroll-top');
+        const Body = document.body
+        const search = document.getElementById('search');
+        const result = document.getElementById('result');
         const script = document.createElement("script");
         script.src = "/js/custom.js";
         script.async = true;
@@ -87,6 +89,10 @@ function App() {
             } else {
                 scrollTop.classList.remove("show");
             }
+        });
+        Body.addEventListener('click', (e) => {
+            result.style.display = 'none';
+            search.value = '';
         });
         fetchProducts();
         fetchCart();

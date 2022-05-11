@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 function ErrorPage() {
     return (
         <section className="errorpage">
-            <div className="container m-0">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-12 p-0">
                         <div className="errorpage-content">
